@@ -25,10 +25,10 @@ A Flutter-based Student Management App used to manage student records easily wit
 
 ```text
 lib/
-│── main.dart
 │── models/
-│── services/
 │── providers/
+│── routers/
 │── screens/
-│── router/
-│── widgets/
+│── services/
+│── main.dart
+
