@@ -1,16 +1,34 @@
-# student_management
+# Student Management App
 
-Student Management App
+A Flutter-based Student Management App used to manage student records easily with a clean and simple user interface.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Add new student details
+- View all students
+- Edit student information
+- Delete student records
+- Local data storage using Hive
+- State management using Riverpod
+- Navigation using GoRouter
+- Clean UI with responsive layout
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter
+- Dart
+- Hive Database
+- Riverpod
+- GoRouter
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Project Structure
+
+```text
+lib/
+│── main.dart
+│── models/
+│── services/
+│── providers/
+│── screens/
+│── router/
+│── widgets/
